@@ -1,0 +1,39 @@
+body {
+    font-family: tahoma,verdana,arial;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+body > div {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+body > div > div {
+    border: 1px solid #ccc;
+    border-top: 0;
+    margin: 0;
+    padding: 4px;
+}
+
+h1 {
+    font: bold large sans-serif;
+    background-color: #c9d7f1;
+    margin: 0 0 .5em;
+    padding: 4px 5em 4px 4px;
+}
+
+#canvasParent {
+    margin-top: 0;
+    margin-bottom: 1em;
+    border: 0;
+    padding: 0;
+    text-align: center;
+}
+#innerCanvas {
+    width: 800px;
+    height: 600px;
+    cursor: pointer;
+    border: 0;
+}
